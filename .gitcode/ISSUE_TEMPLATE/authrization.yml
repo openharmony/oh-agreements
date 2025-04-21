@@ -1,0 +1,115 @@
+name: 数据迁移授权
+description: OpenHarmony 用户数据迁移授权协议
+title: "OpenHarmony 用户数据迁移授权协议"
+labels: ["agreed"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 《OpenHarmony用户数据迁移授权协议》
+
+        ### 甲方
+        
+         OpenHarmony项目群工作委员会
+
+  - type: input
+    id: user
+    attributes:
+      label: 乙方
+      placeholder: 请填写你的姓名...
+    validations:
+      required: true
+
+  - type: input
+    id: gitee
+    attributes:
+      label: Gitee 账号
+      description: eg：@openharmony_ci，请勿输入邮箱、手机号或昵称
+      placeholder: 请填写你的 Gitee 账号（请勿输入邮箱、手机号或昵称！！！）...
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ##
+
+        OpenHarmony项目群工作委员会与用户就用户数据迁移事宜，经友好协商，达成如下协议：
+
+        # OpenHarmony 用户数据迁移授权
+        
+        OpenHarmony 项目是开放原子开源基金会旗下众多的开源项目之一，我们致力于构建开放、共享的技术生态，并为用户提供更好的产品和服务。为了进一步提升用户体验和数据安全性，OpenHarmony 项目群工作委员会（下文简称“我们”或“工委会”）计划进行用户数据迁移操作。
+
+        ## 一、如何处理您的个人信息
+
+        为了确保用户数据的连续性和操作的一致性，以及提升鸿蒙项目的整体管理效率和维护开源社区的完整性的目的，需要将您在 Gitee 平台上的个人信息迁移至由重庆开源共创科技有限公司运营的 GitCode 平台，并将在该平台上用于展示和管理。
+
+        **对于 OpenHarmony 项目**，迁移操作将有助于在 GitCode 平台上还原 OpenHarmony 的完整开源社区贡献历史，支持项目团队更高效地管理和运营，确保贡献者的每一份努力得到全面记录与认可。
+
+        **对于 OpenHarmony 的贡献者**，迁移数据可以帮助您在新的平台上无缝继续您的贡献，确保您在 OpenHarmony 项目中的历史贡献不会因为平台迁移而丢失。此外，迁移数据还可以为您提供在 GitCode 平台上更多的管理权限和操作便利，提升您的使用体验和参与感。
+
+        此次迁移不会影响您在 Gitee 平台上的任何现有数据，您的个人信息在 Gitee 上的可用性和完整性将得到保障。如果您不同意迁移您在Gitee平台上的个人信息，**将会影响您在 GitCode 平台上对 OpenHarmony 项目进行管理和贡献的能力。**
+
+        您的个人信息包含如下：
+
+        - **账号信息**：Gitee 平台的用户名、用户昵称、账号ID、用户头像及公开邮箱；
+        - **与账号关联信息**：您在 Gitee OpenHarmony 相关项目中提交的问题（issue）、拉取请求（pr）、评论、代码评审数据；
+
+        ## 二、数据迁移与数据处置
+
+        1. **迁移条件**： 仅限完成授权协议签署的用户数据可被迁移。未签署协议或撤销授权的用户数据将不会迁移。
+        1. **迁移时间**： 公告发布起开始执行数据迁移。
+        1. **数据保留**： Gitee 平台上的原有数据仍保留，用户可继续访问和查询。
+
+        ## 三、如何访问或修改您的个人信息
+
+        ### 3.1 查询个人信息
+
+        - **在数据迁移前**：您可以通过登录 Gitee 平台的用户中心，查询与您账号关联的个人信息和历史记录。
+        - **在数据迁移后**：您可以通过登录 GitCode 平台的用户中心，查询迁移后的个人信息和历史记录。同时，您仍可以通过 Gitee 平台查询迁移前的个人信息。
+
+        ### 3.2 更改个人信息
+
+        - **在数据迁移前**：您可以随时登录 Gitee 平台更改您的个人信息，包括用户名、头像、公开邮箱等。如需帮助，您也可以联系我们的客服团队获取支持。
+        - **在数据迁移后**：您可以通过 GitCode 平台更改您的个人信息。迁移后的信息将仅在 GitCode 平台上生效，您在 Gitee 平台上的信息不会自动同步。**如果您希望在 Gitee 平台上也做出更改，需分别在两个平台上进行操作。**
+
+        ### 3.3 删除个人信息
+
+        - **在数据迁移前**：您可以通过 Gitee 平台的用户管理界面提交删除个人信息的申请。请注意，删除个人信息可能会影响您使用 OpenHarmony 项目的部分功能。
+        - **在数据迁移后**：您可以通过 GitCode 平台提交删除个人信息的申请。删除申请将仅影响您在 GitCode 平台上的数据，Gitee 平台上的数据将不受影响。
+
+        ### 3.4 撤销授权协议
+
+        - **在数据迁移前**：您可以通过 kefu@gitcode.com 邮箱或电话：400-6868-951 联系我们，并撤销您对数据迁移的授权协议。撤销授权后，您的数据将不会迁移至 GitCode 平台。
+        - **在数据迁移后**：由于数据已经迁移 GitCode 平台，无法执行撤销授权协议，请在 GitCode 平台提交“删除个人信息”申请，删除迁移到 GitCode 平台上的个人信息。
+
+        ## 四、如何联系我们
+
+        如果您有任何疑问或投诉，您可以发送邮件至kefu@gitcode.com邮箱或电话：400-6868-951 联系我们。一般情况下，我们将在15个工作日内回复。
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: 授权声明
+      options:
+        - label: 本人已经阅读并同意《OpenHarmony 用户数据迁移授权协议》
+          required: true
+
+  - type: checkboxes
+    id: tos
+    attributes:
+      label: 服务条款
+      options:
+        - label: 本人已经阅读并同意[《GitCode 服务条款》](https://docs.gitcode.com/declaration/terms-of-service/)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私政策
+      options:
+        - label: 本人已经阅读并同意[《GitCode 隐私政策》](https://docs.gitcode.com/declaration/privacy-policy/)
+    validations:
+      required: true
